@@ -1,7 +1,7 @@
 use std::fs;
 use std::vec::Vec;
 
-const INPUT_TEXT_FILE_PATH: &str = "./input.txt";
+const INPUT_TEXT_FILE_PATH: &str = "../input.txt";
 
 fn main() {
     let file = fs::read_to_string(INPUT_TEXT_FILE_PATH).unwrap();
